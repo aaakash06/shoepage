@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+body {
+  border: 6px solid black;
+  height: auto;
+  width: 1200px;
+  margin: 150px auto;
+}
+
+h1 {
+  background-color: #f7f7f7;
+  text-align: center;
+  font-weight: bold;
+  line-height: 70px;
+  text-transform: uppercase;
+  position: relative;
+}
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.opacity {
+  opacity: 0.5;
+  margin-bottom: 15px;
+}
+img {
+  border: 2px solid black;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+li {
+  list-style: square;
+  margin-left: 25px;
+  padding: 10px;
+}
+button {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  background-color: black;
+  border-top: 6px solid black;
+  color: #f7f7f7;
+  font-size: 20px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+}
+button:hover {
+  background-color: #f7f7f7;
+  color: black;
+}
+.para {
+  margin-bottom: 15px;
+}
+h3 {
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+div {
+  margin-bottom: 20px;
+}
+.prod {
+  margin-bottom: 10px;
+}
+span {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+
+  margin: 10px;
+}
+.black {
+  background-color: black;
+
+  margin-left: 0px;
+}
+.brown {
+  background-color: brown;
+}
+.yellow {
+  background-color: yellow;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: greenyellow;
+}
+h1::before {
+  content: "SALE";
+  background-color: red;
+  /* border: 1px solid black; */
+  color: white;
+  font-size: 15px;
+  padding: 5px 20px;
+  line-height: 30px;
+  position: absolute;
+  top: -20px;
+  left: -40px;
+  letter-spacing: 2px;
+}
